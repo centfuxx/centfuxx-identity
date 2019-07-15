@@ -1,0 +1,25 @@
+2019-07-15 19:33:29.508 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-07-15 19:33:29.560 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-15 19:33:29.564 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-15 19:33:29.565 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-15 19:33:29.565 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-15 19:33:29.567 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-15 19:33:29.567 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-15 19:33:31.663 +02:00 [DBG] Login Url: /Account/Login
+2019-07-15 19:33:31.666 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-15 19:33:31.668 +02:00 [DBG] Logout Url: /Account/Logout
+2019-07-15 19:33:31.668 +02:00 [DBG] ConsentUrl Url: /consent
+2019-07-15 19:33:31.669 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-15 19:33:31.670 +02:00 [DBG] Error Url: /home/error
+2019-07-15 19:33:31.671 +02:00 [DBG] Error Id Parameter: errorId
+2019-07-15 19:33:47.525 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-07-15 19:33:47.692 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-07-15 19:33:47.692 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-07-15 19:33:47.695 +02:00 [DBG] Start discovery request
+2019-07-15 19:33:53.042 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2019-07-15 19:35:51.333 +02:00 [DBG] Augmenting SignInContext
+2019-07-15 19:35:51.335 +02:00 [DBG] Adding idp claim with value: local
+2019-07-15 19:35:51.335 +02:00 [DBG] Adding amr claim with value: pwd
+2019-07-15 19:35:51.336 +02:00 [DBG] Adding auth_time claim with value: 1563212151
+2019-07-15 19:35:51.345 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-07-15 19:35:51.365 +02:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"7a9caf6a-53e2-45de-95f8-e064d3ff41ea","DisplayName":"alice","Endpoint":"UI","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO99A6OEBOS:00000001","TimeStamp":"2019-07-15T17:35:51.0000000Z","ProcessId":2308,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
