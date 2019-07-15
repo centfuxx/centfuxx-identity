@@ -39,6 +39,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="AspIdUsers.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="tempkey.rsa">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
